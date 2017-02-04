@@ -1,0 +1,16 @@
+<script>
+n= Number(prompt("Size"," "));
+x= Number(prompt("Which element you want to insert? ", " "));
+y= Number(prompt("In which position you want to insert?"," "));
+a= []
+
+for (var i=0;i<n;i++){
+a.push(Math.round(Math.random()*10));
+
+}
+a.splice(y,0,x);
+
+document.write(a)
+
+
+</script>
